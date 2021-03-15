@@ -40,12 +40,16 @@
   text-decoration: none;
   color: #999;
 }
+
 .nav-section ul li a:hover {
-  color: orange;
+  color: #ed8b00;
+}
+.activate{
+  color: #ed8b00;
 }
 
 .search-box {
-  border: 2px solid orange;
+  border: 2px solid #ed8b00;
   padding: 0px 10px 0px 10px;
   border-radius: 25px;
 }
@@ -56,19 +60,20 @@
   background-color: whitesmoke;
 }
 .sign {
-  background: rgb(231, 162, 33);
+  background: #ed8b00;
   padding: 10px 20px;
   font-size: 15px;
   border-radius: 5px;
   outline: none;
-  border: 1px solid orange;
+  border: 1px solid #ed8b00;
   color: white;
   width: auto;
 }
 .sign:hover {
   color: white;
-  border: 1px solid orange;
-  background: orange;
+  border: 1px solid #ed8b00;
+  background: #ed8b00;
+  cursor: pointer;
 }
 
 .container {
@@ -96,20 +101,18 @@
   color: #000000;
   background: whitesmoke;
   filter: opacity(0.7);
-  padding: 30px;
+  padding: 20px;
   border-radius: 25px;
   animation: textup 12s linear infinite;
   transform: translateY(100px);
 }
-.text-box h1 {
+.text-box h2 {
   margin-bottom: 40px;
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 700;
+  font-family: 'Mallanna';
 }
-.text-box p {
-  font-size: 18px;
-  margin-top: 80px;
-}
+
 .mid-section {
   margin-top: 400px;
 }
@@ -124,7 +127,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   width: 400px;
-  background: orange;
+  background: #ed8b00;
   height: 200px;
   overflow: hidden;
   padding: 15px 0px 25px 15px;
@@ -161,4 +164,14 @@
 .foot-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.latter {
+  height: 70px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  text-align: center;
+}
+.latter span {
+  padding-right: 20px;
 }
