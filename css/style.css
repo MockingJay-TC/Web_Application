@@ -110,7 +110,50 @@
   font-size: 18px;
   margin-top: 80px;
 }
+.mid-section {
+  margin-top: 400px;
+}
+.secot {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+}
 
+.yea {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 400px;
+  background: orange;
+  height: 200px;
+  overflow: hidden;
+  padding: 15px 0px 25px 15px;
+  margin: 10px;
+  filter: opacity(0.9);
+  border-radius: 20px;
+}
+.fa-key,
+.fa-user,
+.fa-folder {
+  font-size: 72px;
+  color: #fff;
+  filter: opacity(0.8);
+}
+.left {
+  background: #8b734a;
+}
+.mid {
+  background: #ed8b00;
+}
+.right {
+  background: #ffd100;
+}
+.side-text h1 {
+  color: whitesmoke;
+  padding-bottom: 10px;
+  font-family: "Tahoma", sans-serif;
+  font-weight: 500;
+}
 .footer {
   width: 100%;
   border: 1px solid red;
