@@ -39,7 +39,6 @@
 .nav-section ul li a {
   text-decoration: none;
   color: #999;
-
 }
 .nav-section ul li a:hover {
   color: orange;
@@ -88,7 +87,6 @@
   width: 100%;
   height: auto;
   transform: translate(-50, -50);
-
 }
 .text-box {
   width: 500px;
@@ -119,7 +117,6 @@
   position: absolute;
   width: 100%;
   top: 90px;
-
 }
 .slide-1 {
   animation: slide1 12s linear infinite;
@@ -201,42 +198,79 @@
     visibility: hidden;
   }
 }
-@keyframes textup{
-    10% {
-        transform: translateY(0px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
+@keyframes textup {
+  10% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
-text-box1{
-    animation-delay: 0s;
+text-box1 {
+  animation-delay: 0s;
 }
-text-box2{
-    animation-delay: 3s;
+text-box2 {
+  animation-delay: 3s;
 }
-text-box3{
-    animation-delay: 6s;
+text-box3 {
+  animation-delay: 6s;
 }
-text-box4{
-    animation-delay: 9s;
+text-box4 {
+  animation-delay: 9s;
 }
-.social-content{
+.social-content {
   border: 1px solid red;
   margin-top: 400px;
+  margin-left: 35% ;
   align-items: center;
   display: inline-flex;
-
+}
+.social-content .icon{
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.social-content .icon span{
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: block;
+  background: #fff;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.social-content .icon span i {
+  font-size: 25px;
+  line-height: 60px;
+}
+.social-content .icon .tooltip{
+  position: absolute;
+  top: -70px;
+  background: #fff;
+  font-size: 20px;
+  padding: 10px 18px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.social-content .icon .tooltip::before{
+  position: absolute;
+  /* Combak */
 }
 
-.footer{
+.footer {
   width: 100%;
   border: 1px solid red;
 }
-.foot-section{
+.foot-section {
   border: 2pc solid blue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
