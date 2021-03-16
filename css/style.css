@@ -38,26 +38,35 @@
 }
 .nav-section ul li a {
   text-decoration: none;
-  color: #999;
+  color: rgb(131, 131, 131);
 }
 
 .nav-section ul li a:hover {
   color: #ed8b00;
 }
-.activate{
-  color: #ed8b00;
+a.active{
+  
+  border-bottom: 2px solid #ed8b00;
+  border-radius: 15px;
+  padding:15px;
 }
 
 .search-box {
   border: 2px solid #ed8b00;
   padding: 0px 10px 0px 10px;
   border-radius: 25px;
+  position: relative;
 }
 .search-txt {
   border: none;
   outline: none;
   font-size: 16px;
   background-color: whitesmoke;
+}
+.fas{
+  position: absolute;
+  top: 10px;
+  right: 10px
 }
 .sign {
   background: #ed8b00;
