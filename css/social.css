@@ -1,10 +1,9 @@
 .social-content {
-  padding: 5px;
-  margin: 10px 0px 10px 450px;
+  padding: 0px;
+  margin: 5px 0px 10px 450px;
   align-items: center;
   display: inline-flex;
-  border-top: 1px solid #ffd100;
-  border-bottom: 1px solid #ffd100;
+
 }
 .social-content .icon {
   height: 150px;
@@ -41,60 +40,22 @@
 .social-content .icon:hover span {
   color: #fff;
 }
-.social-content .icon .tooltip {
-  position: absolute;
-  width: auto;
-  top: 5px;
-  left: 2px;
-  background: #fff;
-  color: #fff;
-  font-size: 10px;
-  padding: 10px 15px;
-  border-radius: 25px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.social-content .icon:hover .tooltip {
-  top: 0px;
-  opacity: 1;
-  pointer-events: auto;
-  text-align: center;
-}
-.social-content .icon .tooltip::before {
-  text-align: center;
-  position: absolute;
-  content: "";
-  height: 80px;
-  width: auto;
-  background: #fff;
-  bottom: -8px;
-  right: 2px;
-  transform: translateX(-50%) rotate(45deg);
-}
+
+
 .social-content .icon:hover span,
 .social-content .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgb(0, 0, 0, 0.4);
 }
-.social-content .facebook:hover span,
-.social-content .facebook:hover .tooltip,
-.social-content .facebook:hover .tooltip::before {
+.social-content .facebook:hover span {
   background: #3b5999;
 }
-.social-content .twitter:hover span,
-.social-content .twitter:hover .tooltip,
-.social-content .twitter:hover .tooltip::before {
+.social-content .twitter:hover span{
   background: #46c1f6;
 }
-.social-content .instagram:hover .tooltip,
-.social-content .instagram:hover span,
-.social-content .instagram:hover .tooltip::before {
+.social-content .instagram:hover span {
   background: #e1306c;
 }
-.social-content .youtube:hover span,
-.social-content .youtube:hover .tooltip,
-.social-content .youtube:hover .tooltip::before {
+.social-content .youtube:hover span {
   background: #de463b;
 }
 .twi {
