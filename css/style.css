@@ -44,9 +44,10 @@
 .nav-section ul li a:hover {
   color: #ed8b00;
 }
-a.active{
+ul li a.active{
   
   border-bottom: 2px solid #ed8b00;
+  color: #ed8b00;
   border-radius: 15px;
   padding:15px;
 }
