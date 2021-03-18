@@ -1,0 +1,31 @@
+.about{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid red;
+    font-family: 'Poppins', sans-serif;
+}
+.about-us{
+    width: 100%;
+    position: relative;
+    height: 200px;
+    
+}
+.about-us img{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+    position: relative;
+}
+.about h1{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: white;
+    font-size: 40px;
+
+}
+.overview{
+    border: 1px solid blue;
+    margin: auto;
+    
+}
