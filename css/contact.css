@@ -1,0 +1,40 @@
+.contact-bg{
+    position: relative;
+    justify-content: center;
+    align-items: contine;
+    background: #cecece;
+    border: 2px solid red;
+
+    z-index: 0;
+}
+.contact-bg::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 50%;
+    height: auto;
+    background: #ed8b00; 
+}
+.contact-bg .contact{
+    position: relative;
+    display: flex;
+    z-index: 1000;
+}
+.contact-bg .contact .info{
+    position: absolute;
+    top:40px;
+    width: 350px;
+    height: calc(100% - 80px);
+    background: #ed8b00;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+
+}
+.contact-bg .contact .info h3{
+
+}
