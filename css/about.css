@@ -1,31 +1,88 @@
 .about{
-    width: 80%;
-    margin: 10px auto;
+    width: 100%;
+    margin: auto;
     border: 1px solid red;
     font-family: 'Poppins', sans-serif;
 }
 .about-us{
     width: 100%;
     position: relative;
-    height: 200px;
+    height: 300px;
     
 }
 .about-us img{
     width: 100%;
     object-fit: cover;
-    height: 90%;
+    height: 100%;
     position: relative;
 }
 .about h1{
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 10%;
     color: white;
     font-size: 40px;
 
 }
 .overview{
-    border: 1px solid blue;
     margin: auto;
+    font-family: 'Calibri';
+    font-size: 24px;
+    width: 80%;
+    height: 100%;
+    text-align: justify;
+    padding: 20px;
+    
+}
+.overview h2{
+    margin-bottom: 20px;
+
+}
+.over-txt {
+    font-weight: 400;
+    text-align: justify;
+    
+}
+.mission,.board{
+    margin: auto;
+    font-family: 'Calibri';
+    font-size: 24px;
+    width: 80%;
+    height: 100%;
+    text-align: justify;
+    padding: 20px;
+}
+.side-note{
+    border-left: 3px solid #ffd100;
+    margin-top: 30px;
+    padding-left: 30px;
+    width: 60%;
+    font-family: 'Poppins';
+}
+.list{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 20px auto;
+}
+.mang-pic{
+    display: grid;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    
+}
+
+.mang-pic img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.role{
+    display: grid;
+    padding-right: 100px;
+    font-size: 18px;
+    width: 100%;
     
 }
