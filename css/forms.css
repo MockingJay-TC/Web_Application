@@ -15,7 +15,7 @@
     left: 100px;
     height: 70%;
     z-index: 10;
-    background: linear-gradient(45deg, #ed8b00, #ffd100,#a36002);
+    background: linear-gradient(10deg, #a36002 ,#ffd100);
     box-shadow: 0px 0px 30px 0.1px rgba(0, 0, 0, 0.5);
   }
   .info h3 {
@@ -96,4 +96,4 @@
   .textArea span{
       margin-bottom: 20px;
   }
-  
+

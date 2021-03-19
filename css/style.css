@@ -46,10 +46,11 @@
 }
 ul li a.active{
   
-  border-bottom: 2px solid #ed8b00;
+  /* border-bottom: 2px solid #ed8b00; */
   color: #ed8b00;
   border-radius: 15px;
   padding:15px;
+  /* background: #ed8b00; */
 }
 
 .search-box {

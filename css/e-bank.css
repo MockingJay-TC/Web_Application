@@ -1,0 +1,98 @@
+.contact-bg {
+  display: none;
+}
+
+.contact-bg1 {
+  /* display: none; */
+  width: 100%;
+  height: 700px;
+  margin: 0px auto;
+  position: relative;
+  background-image: url(../images/form.jpg);
+  box-shadow: 0px 0px 30px 0.1px rgba(0, 0, 0, 0.2);
+}
+.header {
+  font-size: 50px;
+  margin: 35px 0px 10px 160px;
+  font-family: "Calibri";
+  font-weight: 400;
+}
+.contact1 {
+  margin-top: 10%;
+  width: 700px;
+  height: auto;
+  background: #ffd100;
+  box-shadow: 0px 0px 35px 0.2px rgba(0, 0, 0, 0.4);
+  filter: opacity(0.9);
+  filter: brightness(0.8);
+  line-height: 25px;
+  border-radius: 0px 15px 300px 0px;
+}
+
+.form {
+  margin: 10px 150px;
+  place-content: center;
+  z-index: 1;
+}
+
+.form h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 30px;
+  text-align: left;
+  margin: 15px 0px 10px 20px;
+  width: 100%;
+}
+.form-int {
+  font-size: 20px;
+  display: block;
+}
+.form-int .username input {
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ed8b00;
+  padding: 5px 10px 0px 15px;
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+.form-int .password input {
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ed8b00;
+  padding: 5px 10px 0px 15px;
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+.ign{
+    margin: 0px auto;
+}
+/* .form-int div input{
+      font-size: 16px;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid #ed8b00;
+      padding: 3px;
+      width: 200px;
+  } */
+
+.textArea {
+  display: grid;
+  grid-column: 1/3;
+  text-align: left;
+}
+.textArea textarea {
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ed8b00;
+}
+.textArea span {
+  margin-bottom: 20px;
+}
