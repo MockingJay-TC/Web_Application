@@ -60,13 +60,3 @@
 
 }
 
-.grade{
-    width: 98.6vw;
-    height: 140px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background: linear-gradient(90deg, #ffd100, #ed8b00);
-    font-family: 'Calibri';
-    font-weight: 400px;
-    font-size: 20px;
-}

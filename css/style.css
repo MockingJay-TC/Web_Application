@@ -81,8 +81,8 @@ ul li a.active{
 }
 .sign:hover {
   color: white;
-  border: 1px solid #ed8b00;
-  background: #ed8b00;
+  border: 1px solid #a36002;
+  background: #a36002;
   cursor: pointer;
 }
 
@@ -247,4 +247,15 @@ ul li a.active{
 }
 .latter span {
   padding-right: 20px;
+}
+
+.grade{
+  width: 98.6vw;
+  height: 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: linear-gradient(90deg, #ed8b00,  #ffd100);
+  font-family: 'Calibri';
+  font-weight: 400px;
+  font-size: 20px;
 }
