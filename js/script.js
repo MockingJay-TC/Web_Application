@@ -1,22 +1,23 @@
-// container for the sign in form
+
 var signin = document.querySelector('.contact-bg1');
-// the input box of deposit form
+
 
 var newForm = document.querySelector('.contact-bg');
 var signInBtn = document.querySelector("#In-sign");
+var reset = document.querySelector("#reset");
 var balance = document.querySelector('#balance');
 var depositBtn = document.querySelector("#dept");
 var signOutBtn = document.querySelector("#out");
 var welcomeMsg = document.querySelector("#welcomeMsg");
 depositBtn.addEventListener('click', deposit);
 signOutBtn.addEventListener('click', signOut);
-// is user logged in?
+
 isLoggedIn();
 
 signInBtn.addEventListener('click', function () {
-    // get username
+    
     var username = document.querySelector("#username").value;
-    // get password
+
     var password = document.querySelector("#password").value;
     if (username == "" && password == "") {
         alert("Please type your username and password");
@@ -30,6 +31,11 @@ signInBtn.addEventListener('click', function () {
         localStorage.setItem('balance', '0.00');
         isLoggedIn();
     }
+})
+
+reset.addEventListener('click',function (){
+    username.value("");
+    password.value(""); 
 })
 
 function isLoggedIn() {
@@ -63,7 +69,6 @@ function deposit() {
         depositAmount = 0.00;
     } else depositAmount = parseFloat(amountInp.value);
     localStorage.setItem('balance', (depositAmount + initialBalance));
-    // set the balance innerText to the new balance from the cookie
     balance.innerText = localStorage.getItem("balance");
     amountInp.value = "";
     alert("Deposit of Ghs " + depositAmount + " made.\nNew balance is Ghs " + localStorage.getItem("balance"));
